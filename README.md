@@ -48,5 +48,5 @@ npm run test:update
 
 ## Reporting
 
-#### for reporting result auto generating after run, you can check in local directory with file named mochawesome.html or mochawesome.json
+#### for reporting result auto generating after run using mochawesome, you can check in project local directory with file named mochawesome.html or mochawesome.json
 
