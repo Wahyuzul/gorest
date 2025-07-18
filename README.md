@@ -24,20 +24,20 @@ You can generate a token from https://gorest.co.in/my-account/access-tokens
 
 To run this project, open terminal and use this commands:
 
-#### Run Create test
+#### Run Create User test
 ```bash
 npm run test:create
 ```
 
-#### Run Delete test
+#### Run Delete User test
 ```bash
 npm run test:delete
 ```
-#### Run Get test
+#### Run Get User test
 ```bash
 npm run test:get
 ```
-#### Run Update test
+#### Run Update User test
 ```bash
 npm run test:update
 ```
