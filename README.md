@@ -25,19 +25,23 @@ You can generate a token from https://gorest.co.in/my-account/access-tokens
 To run this project, open terminal and use this commands:
 
 #### Run Create User test
+##### open createUser.js then input user credential, save and run following command:
 ```bash
 npm run test:create
 ```
 
 #### Run Delete User test
+##### open deleteUser.js then input selected user id, save and run following command:
 ```bash
 npm run test:delete
 ```
 #### Run Get User test
+##### open getUser.js then input selected user id, save and run following command:
 ```bash
 npm run test:get
 ```
 #### Run Update User test
+##### open updateUser.js then input selected user id and input new user credential then, save and run following command:
 ```bash
 npm run test:update
 ```
