@@ -22,7 +22,7 @@ You can generate a token from https://gorest.co.in/my-account/access-tokens
 
 ## How to Run
 
-To run this project, open terminal and use this commands:
+To run this project, follow this steps below:
 
 #### Run Create User test
 ##### open createUser.js then input user credential, save and run following command:
