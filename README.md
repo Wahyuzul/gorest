@@ -46,4 +46,7 @@ npm run test:get
 npm run test:update
 ```
 
+## Reporting
+
+#### for reporting result auto generating after run, you can check in local directory with file named mochawesome.html or mochawesome.json
 
