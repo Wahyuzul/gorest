@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test:create": "mocha test/createUser.js --reporter mochawesome",
+  "test:get": "mocha test/getUser.js --reporter mochawesome",
+  "test:update": "mocha test/updateUser.js --reporter mochawesome",
+  "test:delete": "mocha test/deleteUser.js --reporter mochawesome"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "axios": "^1.10.0",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}

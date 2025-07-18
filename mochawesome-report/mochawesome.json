@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-18T00:57:07.196Z",
+    "end": "2025-07-18T00:57:08.062Z",
+    "duration": 866,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "81740846-6a1b-4e69-aea3-d1f63a542301",
+      "title": "",
+      "fullFile": "D:\\Metrodata\\Project\\test\\createUser.js",
+      "file": "\\test\\createUser.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4f6f9c99-aefa-496e-acfe-4582f1c12a52",
+          "title": "Create User API",
+          "fullFile": "D:\\Metrodata\\Project\\test\\createUser.js",
+          "file": "\\test\\createUser.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "create a new user",
+              "fullTitle": "Create User API create a new user",
+              "timedOut": false,
+              "duration": 858,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const response = await apiClient.post('/users', {\n  name: \"sample user 3\",\n  gender: \"male\",\n  email: `sample3${Date.now()}@example.com`,\n  status: \"active\"\n});\nexpect(response.status).to.equal(201);\nexpect(response.data).to.have.property('id');\nconsole.log('User created successfully:', response.data);",
+              "err": {},
+              "uuid": "5aae0dfc-fe21-4c04-93b3-358bfeb20eac",
+              "parentUUID": "4f6f9c99-aefa-496e-acfe-4582f1c12a52",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5aae0dfc-fe21-4c04-93b3-358bfeb20eac"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 858,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.7.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
