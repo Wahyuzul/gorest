@@ -15,6 +15,6 @@ To get started with this project, follow these steps:
    npm install
    
 3. Set up environment variables
-  ```bash
+   ```bash
    TOKEN=bearer your_gorest_api_token
 You can generate a token from https://gorest.co.in/my-account/access-tokens
