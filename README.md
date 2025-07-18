@@ -18,3 +18,22 @@ To get started with this project, follow these steps:
    ```bash
    TOKEN=bearer your_gorest_api_token
 You can generate a token from https://gorest.co.in/my-account/access-tokens
+
+
+## How to Run
+
+To run this project, open terminal and use this commands:
+
+# Run Create test
+npm run test:create
+
+# Run Delete test
+npm run test:delete
+
+# Run Get test
+npm run test:get
+
+# Run Update test
+npm run test:update
+
+
